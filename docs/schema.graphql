@@ -7,9 +7,9 @@ type Car {
   model: String!
   year: Int!
   color: String!
-  mobile: String!   # image for viewports <= 639px
-  tablet: String!   # image for viewports 640px - 1023px
-  desktop: String!  # image for viewports >= 1024px
+  mobile: String! # image for viewports <= 639px
+  tablet: String! # image for viewports 640px - 1023px
+  desktop: String! # image for viewports >= 1024px
 }
 
 input CreateCarInput {
